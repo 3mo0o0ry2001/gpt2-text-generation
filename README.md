@@ -1,32 +1,32 @@
 # GPT-2 Text Generation
 
-مشروع بسيط يوضح كيفية توليد نصوص باستخدام نموذج GPT-2 مع تطبيق استراتيجيات توليد مختلفة مثل:
+A simple project demonstrating text generation using the GPT-2 model with various decoding strategies such as:
 
-- Greedy Search (البحث الطماع)
-- Beam Search (البحث الشعاعي)
-- Sampling (التوليد العشوائي)
-- Top-k و Top-p Sampling
-
----
-
-## الملفات
-
-- `untitled.py`: السكريبت الرئيسي المكتوب بلغة بايثون لتوليد النصوص.
+- Greedy Search
+- Beam Search
+- Sampling
+- Top-k and Top-p Sampling
 
 ---
 
-## المتطلبات
+## Files
 
-- Python 3.6 أو أعلى
-- مكتبات Python:
+- `untitled.py`: The main Python script for text generation.
+
+---
+
+## Requirements
+
+- Python 3.6 or higher
+- Python libraries:
   - transformers
   - torch
 
 ---
 
-## كيفية التثبيت
+## Installation
 
-لتثبيت المتطلبات، شغّل الأمر التالي في الطرفية:
+To install the required libraries, run the following command in your terminal:
 
 ```bash
 pip install transformers torch
